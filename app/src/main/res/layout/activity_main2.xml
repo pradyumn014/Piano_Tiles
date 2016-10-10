@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.android.pianotiles.Main2Activity">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/score"
+    android:layout_centerInParent="true"
+    android:textColor="@android:color/black"
+    android:textSize="50sp"
+    />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/score"
+        android:layout_centerInParent="true"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_red_dark"
+        android:text="Play Again"
+        android:textSize="30sp"
+        android:onClick="gameplay"/>
+</RelativeLayout>
+
